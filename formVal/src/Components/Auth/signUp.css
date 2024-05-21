@@ -1,0 +1,193 @@
+.signUp-body {
+  background-color: rgb(230, 230, 230);
+  min-width: 420px;
+  height: 90%;
+  border-radius: 10px;
+  /* border: 1px solid blue; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.signUp-holder {
+  background-color: #fff;
+  width: 90%;
+  height: max-content;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 10px;
+  color: #000;
+  padding-block: 20px;
+  gap: 20px;
+  /* box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2); */
+}
+
+.field {
+  width: 90%;
+}
+
+input {
+  height: 35px;
+  width: 100%;
+  border-radius: 5px;
+  background-color: #fff;
+  border: 1px solid blue;
+  outline: none;
+  padding-left: 2px;
+  font-size: 14px;
+  color: #000;
+}
+
+.nameHolder {
+  min-width: 90%;
+  display: flex;
+
+  /* justify-content: space-between; */
+  gap: 20px;
+}
+.nameHolder p {
+  color: black;
+}
+.firstName {
+  width: 50%;
+}
+
+.labelHolder{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.errorMssg{
+    font-size: 10px;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    color: red;
+    font-weight: 500;
+}
+.firstName input {
+  width: 100%;
+}
+.secondName {
+  width: 50%;
+}
+
+.createAcc {
+  border-radius: 5px;
+  height: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0, 0, 255, 0.801);
+  color: #fff;
+}
+
+.createAcc:hover {
+  background-color: rgba(64, 64, 255, 0.801);
+  cursor: pointer;
+}
+
+.phoneNum-wrapper {
+  width: 100%;
+  height: 35px;
+  display: flex;
+  height: 35px;
+  justify-content: space-between;
+  border-radius: 5px;
+  background-color: #fff;
+  border: 1px solid blue;
+  padding-inline-start: 3px;
+}
+
+.phoneNum-wrapper input {
+  width: 80%;
+  height: 100%;
+  padding-left: 5px;
+  border: none;
+  outline: none;
+  color: #000;
+}
+
+.icon {
+  width: 20%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  gap: 3px;
+  /* background-color: aqua; */
+}
+
+.iconHolder {
+  width: 40%;
+  height: 100%;
+  /* background-color: blue; */
+}
+img {
+  width: 100%;
+  height: 100%;
+}
+.countryCode {
+  width: 60%;
+  font-size: 15px;
+  display: flex;
+  align-items: center;
+}
+
+label{
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.passwordWrapper{
+    height: 35px;
+    width: 100%;
+    display: flex;
+    border-radius: 5px;
+    background-color: #fff;
+    border: 1px solid blue;
+}
+
+.passwordWrapper input{
+    width: 90%;
+    height: 100%;
+    /* padding-left: 5px; */
+    border: none;
+    outline: none;
+    color: #000;
+}
+
+.eye{
+    width: 10%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.eyeIcon{
+    cursor: pointer;
+}
+
+.color{
+  border: 2px solid green;
+}
+
+.inputBox{
+  display: flex;
+  width: 90%;
+  /* background-color: aqua; */
+  align-items: center;
+}
+
+.inputBox input{
+  width: 100px;
+  padding: 0px;
+  margin: 0px;
+}
+
+.inputBox label{
+  width: 150px;
+}
